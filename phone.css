@@ -1,0 +1,83 @@
+@media  screen and (max-width:920px) {
+    
+    /* Navigation Bar */
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #navbar ul li a{
+        font-size: 1rem;
+        padding-bottom: 5px;
+    }
+    /* Home Section */
+    #home{
+        height: 335px;
+        padding: 3px 77px;
+    }
+    
+    #home::before{
+        height: 470px;
+        width: 108vw;
+        /* flex-direction: column; */
+    }
+}
+
+#services{
+    flex-direction: column;
+}
+
+
+/* Client Section */
+.clients{
+    overflow: hidden;
+}
+
+/* Contact Us */
+
+/* Footer */
+
+/* Utility Classes */
+.h1-primary{
+    font-size: 23px;
+}
+.btn{
+    font-size: 12px;
+    padding: 4xp 9px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media  screen and (max-width:910px) {
+.hello{
+    font-size: 1.5rem;
+}
+.name{
+    font-size: 2rem;
+}
+.about{
+    font-size: 1rem;
+}
+.more-about{
+    font-size: 0.7rem;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    /* margin: 0 15px;
+    padding: 0 15px; */
+}
+.btn{
+    font-size: 0.7rem;
+}
+.cv{
+    font-size: 0.7rem;
+}
+.sidebar{
+    height: 100vh;
+    /* width: 10vw; */
+}
+}

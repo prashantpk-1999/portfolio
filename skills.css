@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Neonderthaw&family=Open+Sans:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.skill-container {
+  /* margin: 4px; */
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid magenta; */
+}
+.head {
+  background: url(my-portfolio.jpg);
+  background-size: cover;
+  height: 400px;
+  /* display: flex; */
+}
+.skill-box {
+  margin: 50px 0;
+}
+.skill-container h1 {
+  margin-left: 15px;
+  color: white;
+  margin-top: 170px;
+  font-size: 50px;
+  font-family: "Neonderthaw", cursive;
+  text-align: center;
+}
+.skills {
+  height: 10px;
+  width: 200px;
+  background-color: aqua;
+  margin: 7px 50px;
+  border: 2px solid brown;
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin-right: 2vw; */
+}
+.fskills {
+  margin: 0 15px;
+  font-family: "Baloo Bhai 2", cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 2px; */
+  /* border: 2px solid black; */
+  border-bottom: 2px solid rgb(117, 9, 117);
+  text-align: center;
+  /* margin-right: 50vw; */
+  font-size: 24px;
+}
+.s5 {
+  width: 300px;
+  background-color: magenta;
+}
+.fifty {
+  width: 250px;
+  background-color: yellowgreen;
+}
+.t5 {
+  width: 200px;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: black; */
+  position: relative;
+  /* border: 4px solid black; */
+  background-color: black;
+}
+#navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 24px;
+  color: white;
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  font-family: 'Bree Serif', serif;
+}
+
+#navbar ul li a:hover {
+  background-color: white;
+  color: black;
+}
+#navbar ul {
+  display: flex;
+  font-family: "Baloo Bhai 2", cursive;
+  /* border: 2px solid orangered; */
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+/* Home Section */
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 305px;
+  padding: 3px 260px;
+  /* border: 22px solid red; */
+}
+
+#home h1 {
+  color: white;
+  /* text-align:start; */
+  /* font-family: 'Bree Serif', serif; */
+  font-family: "Neonderthaw", cursive;
+  /* margin-bottom: 0px; */
+  /* border: 22px solid red; */
+  font-size: 50px;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  height: 70vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: url("my-portfolio.jpg") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 0.9;
+  /* border: 3 px solid purple */
+}
+
+.logo {
+  /* display: flex; */
+  /* justify-content:space-around; */
+  /* align-items: center; */
+  /* margin-right: 350px; */
+  /* margin-right: 290px; */
+  color: rgb(99, 216, 115);
+  /* margin: 10px; */
+  /* padding: 10px; */
+  font-family: cursive;
+  cursor: pointer;
+  /* width:800px; */
+  /* border: 2px solid greenyellow; */
+}
+.logo img {
+  height: 60px;
+  width: 60px;
+  /* margin: 7px; */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.foot{
+  background-color: black;
+  color: white;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+}
+.foot a{
+  color: white;
+}
+/* phone.css */
+@media screen and (max-width: 720px) {
+  /* body{
+        background-color: magenta;
+    } */
+
+  /* Navigation Bar */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #navbar ul li a {
+    font-size: 1rem;
+    padding-bottom: 5px;
+  }
+  /* Home Section */
+  #home {
+    height: 335px;
+    padding: 3px 77px;
+  }
+
+  #home::before {
+    height: 470px;
+    width: 108vw;
+    /* flex-direction: column; */
+  }
+}
+
+#services {
+  flex-direction: column;
+}
+
+/* Client Section */
+.clients {
+  overflow: hidden;
+}
+
+/* Contact Us */
+
+/* Footer */
+
+/* Utility Classes */
+.h1-primary {
+  font-size: 23px;
+}
+.btn {
+  font-size: 12px;
+  padding: 4xp 9px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

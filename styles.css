@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Neonderthaw&family=Open+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: rgb(110, 140, 180);
+} */
+.container{
+    /* border: 4px solid black; */
+display: flex;
+/* padding: 4px 7px; */
+}
+.sidebar{
+    /* border: 2px solid blue; */
+    background-color: rgb(216, 202, 202);
+    /* width: 250px; */
+    height: 100vh;
+    position: absolute;
+    border-right: 4px solid black;
+    transition: transform 0.2s ease-in;
+}
+.main{
+    /* border: 3px solid yellow; */
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 85vw;
+}
+.sidebar nav ul li a{
+    text-decoration: none;
+    /* padding: 34px; */
+    color: black;
+    font-weight: 600;
+}
+/* .sidebar nav ul li a:hover{
+   background-color: aqua;
+   color: purple;
+   border-radius: 4px;
+} */
+.sidebar nav ul {
+    color: pink ;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+.sidebar nav ul li {
+    list-style: none;
+    font-size: 24px;
+    padding: 34px 0;
+}
+.sidebar nav{
+    padding: 57px;
+}
+.info{
+    height: 60vh;
+    width: 80vw;
+    /* background-color: pink; */
+    background:url(my-portfolio.jpg);
+    background-size: cover;
+    border-radius: 19px;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+    z-index: -1;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.devpic img{
+    width: 25vw;
+    height: 60vh;
+    border-radius: 50%;
+}
+.hello{
+    font-size: 2rem;
+    color: white;
+}
+.name{
+    font-size:3rem;
+    font-weight: bold;
+    color: white;
+}
+.about{
+    font-size: 1.5rem;
+    color: white;
+}
+.more-about{
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: bold; */
+    font-size: 1rem;
+    color: white;
+}
+.buttons{
+    margin: 30px;
+}
+.buttons button{
+    padding: 8px 16px;
+    border-radius: 12px;
+  
+    cursor: pointer;
+    margin: 5px;
+    
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: black;
+}
+.buttons button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.hamburger{
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.sidebarGo{
+    transform: translate(-433px,0px) ;
+    position: absolute;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+}
+.foot a{
+    color: white;
+}
+.wel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 27px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    /* background-color: blue; */
+    transition: transform 0.2s ease-in-out;
+}
+h1{
+    font-size: 4rem;
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-form{
+    padding: 0 34px;
+    padding-top: 90px;
+    /* margin: 34px; */
+}
+.contact-form h1{
+    text-align: center;
+}
+.mb-3{
+    padding: 10px 0;
+}

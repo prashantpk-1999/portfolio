@@ -1,0 +1,11 @@
+@media screen and (max-width:1210px) {
+
+    .sidebarGo{
+    transform: translate(-433px,0px) ;
+    position: absolute;
+}
+.devpic{
+    display:flex;
+}
+}
+    
